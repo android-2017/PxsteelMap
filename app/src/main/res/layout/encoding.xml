@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/mcity"
+        android:lines="1"
+        android:hint="城市"
+        android:text="北京"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/maddress"
+        android:lines="1"
+        android:hint="地址"
+        android:text="天坛公园"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/encoding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正编码" />
+
+    <EditText
+        android:id="@+id/mx"
+        android:lines="1"
+        android:hint="经度"
+        android:text="27.6385023428"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/my"
+        android:lines="1"
+        android:hint="纬度"
+        android:text="113.7435619762"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Fencoding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="反编码" />
+
+    <TextView
+        android:id="@+id/result"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
